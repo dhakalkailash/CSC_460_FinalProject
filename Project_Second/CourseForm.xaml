@@ -1,0 +1,51 @@
+﻿<Window x:Class="Project_Second.CourseForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_Second"
+        mc:Ignorable="d"
+        Title="CourseForm" Height="741.797" Width="1079.375">
+	<Grid Background="#FFE6E61E">
+		<Label Content="Id" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Departemnt" HorizontalAlignment="Left" Margin="10,54,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Course Number" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Course Name" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Description" HorizontalAlignment="Left" Margin="10,194,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Prerequisite" HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Status" HorizontalAlignment="Left" Margin="10,398,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Class Size" HorizontalAlignment="Left" Margin="10,442,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Enrolled" HorizontalAlignment="Left" Margin="510,10,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Semester" HorizontalAlignment="Left" Margin="510,54,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Year" HorizontalAlignment="Left" Margin="510,103,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Section" HorizontalAlignment="Left" Margin="510,147,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Credit" HorizontalAlignment="Left" Margin="510,194,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Class Days" HorizontalAlignment="Left" Margin="510,238,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Class Time" HorizontalAlignment="Left" Margin="510,287,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<Label Content="Class Location" HorizontalAlignment="Left" Margin="510,331,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<TextBox x:Name="txtId" HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,10,0,0"/>
+		<TextBox x:Name="txtDep" HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,54,0,0"/>
+		<TextBox x:Name="txtNumber" HorizontalAlignment="Left" Height="49" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,98,0,0"/>
+		<TextBox x:Name="txtName" HorizontalAlignment="Left" Height="47" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,147,0,0"/>
+		<TextBox x:Name="txtDesc" HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,194,0,0"/>
+		<TextBox x:Name="txtPre" HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,238,0,0"/>
+		<TextBox x:Name="txtStatus" HorizontalAlignment="Left" Height="49" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,393,0,0"/>
+		<TextBox x:Name="txtSize" HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,442,0,0"/>
+		<TextBox x:Name="txtEnrolled" HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="703,10,0,0"/>
+		<TextBox x:Name="txtSem" HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="703,54,0,0"/>
+		<TextBox x:Name="txtYear" HorizontalAlignment="Left" Height="49" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="703,98,0,0"/>
+		<TextBox x:Name="txtSection" HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="703,147,0,0"/>
+		<TextBox x:Name="txtCredit" HorizontalAlignment="Left" Height="47" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="703,191,0,0"/>
+		<TextBox x:Name="txtTime" HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="703,287,0,0"/>
+		<TextBox x:Name="txtLoacation" HorizontalAlignment="Left" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="703,331,0,0"/>
+		<Label Content="Instructor First Name" HorizontalAlignment="Left" Margin="10,287,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<TextBox x:Name="txtInst" HorizontalAlignment="Left" Height="49" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,282,0,0"/>
+		<ComboBox x:Name="cBox" HorizontalAlignment="Left" Margin="703,238,0,0" VerticalAlignment="Top" Width="212" Height="49" SelectionChanged="ComboBox_SelectionChanged"/>
+		<Button Content="Done" HorizontalAlignment="Left" Margin="10,546,0,0" VerticalAlignment="Top" Width="124" Height="50" Background="#FF0CE6DC" Click="Button_Click"/>
+		<Label Content="Instructor Last Name" HorizontalAlignment="Left" Margin="10,336,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
+		<TextBox x:Name="txtInstLast" HorizontalAlignment="Left" Height="57" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,336,0,0"/>
+		<Button Content="UPDATE" HorizontalAlignment="Left" Margin="226,546,0,0" VerticalAlignment="Top" Width="157" Height="50" Background="#FFB4D6EE" Click="Button_Click_1"/>
+		<Button Content="DELETE" HorizontalAlignment="Left" Margin="476,549,0,0" VerticalAlignment="Top" Width="158" Height="47" Background="Crimson" Click="Button_Click_2"/>
+
+	</Grid>
+</Window>

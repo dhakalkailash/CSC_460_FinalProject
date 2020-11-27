@@ -1,0 +1,21 @@
+﻿<Window x:Class="Project_Second.InstructorForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_Second"
+        mc:Ignorable="d"
+        Title="InstructorForm" Height="450" Width="800">
+	<Grid Background="#FF1ECCE6">
+		<Label Content="First Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="46" Width="190"/>
+		<Label Content="Last Name" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top" Height="46" Width="190"/>
+		<Label Content="Course" HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top" Height="46" Width="190"/>
+		<TextBox x:Name="txtfirst" HorizontalAlignment="Left" Height="46" Margin="237,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" RenderTransformOrigin="-0.03,-1.469"/>
+		<TextBox x:Name="txtLast" HorizontalAlignment="Left" Height="46" Margin="237,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" RenderTransformOrigin="-0.03,-1.469"/>
+		<TextBox x:Name="txtCourse" HorizontalAlignment="Left" Height="46" Margin="237,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" RenderTransformOrigin="-0.03,-1.469"/>
+		<Button Content="DONE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Margin="10,249,0,0" Height="48" Background="#FF0CE6DC" Click="Button_Click"/>
+		<Label Content="Instructor ID" HorizontalAlignment="Left" Margin="10,163,0,0" VerticalAlignment="Top" Height="41" Width="105"/>
+		<TextBox x:Name="txtId" HorizontalAlignment="Left" Height="46" Margin="237,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" RenderTransformOrigin="-0.03,-1.469"/>
+
+	</Grid>
+</Window>
