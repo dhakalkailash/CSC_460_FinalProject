@@ -161,6 +161,8 @@ namespace Project_Second
 			public CourseContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB;" +
 				@"AttachDbFilename=C:\Users\KAILASH DHAKAL\OneDrive\Documents\Registrations.mdf;Integrated Security=True;Connect Timeout=30")
 			{ }
+			//(@"Data Source=(LocalDB)\MSSQLLocalDB;" +
+			//@"AttachDbFilename=C:\Users\KAILASH DHAKAL\OneDrive\Documents\Registrations.mdf;Integrated Security=True;Connect Timeout=30")
 
 
 

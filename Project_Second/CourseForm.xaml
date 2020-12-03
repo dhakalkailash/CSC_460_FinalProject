@@ -45,7 +45,7 @@
 		<Label Content="Instructor Last Name" HorizontalAlignment="Left" Margin="10,336,0,0" VerticalAlignment="Top" Height="44" Width="124"/>
 		<TextBox x:Name="txtInstLast" HorizontalAlignment="Left" Height="57" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Margin="189,336,0,0"/>
 		<Button Content="UPDATE" HorizontalAlignment="Left" Margin="226,546,0,0" VerticalAlignment="Top" Width="157" Height="50" Background="#FFB4D6EE" Click="Button_Click_1"/>
-		<Button Content="DELETE" HorizontalAlignment="Left" Margin="476,549,0,0" VerticalAlignment="Top" Width="158" Height="47" Background="Crimson" Click="Button_Click_2"/>
+		<Button Content="BACK&#xD;&#xA;" HorizontalAlignment="Left" Margin="476,549,0,0" VerticalAlignment="Top" Width="158" Height="47" Background="Crimson" Click="Button_Click_2"/>
 
 	</Grid>
 </Window>
