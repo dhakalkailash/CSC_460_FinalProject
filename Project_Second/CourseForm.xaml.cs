@@ -108,32 +108,33 @@ namespace Project_Second
 			int courseID = Convert.ToInt32(txtId.Text);
 
 			Course course = ctx.Courses.SingleOrDefault(x => x.Id == courseID);
-
-			if (course != null)
-			{
-				course.Id = Convert.ToInt32(txtId.Text);
-
-				course.Department = txtDep.Text;
-				course.CourseName = txtName.Text;
-				course.CourseNumber = Convert.ToInt32(txtNumber.Text);
-				course.Description = txtDesc.Text;
-				course.Prerequisite = txtPre.Text;
-				course.Status = txtStatus.Text;
-				course.ClassSize = Convert.ToInt32(txtSize.Text);
-				course.Enrolled = Convert.ToInt32(txtEnrolled.Text);
-				course.Semester = txtSem.Text;
-				course.Year = Convert.ToInt32(txtYear.Text);
-				course.Section = txtSection.Text;
-				course.Credit = Convert.ToInt32(txtCredit.Text);
-				course.Days = cBox.Text;
-				course.Time = txtTime.Text;
-				course.Location = txtLoacation.Text;
-				course.Inst.FirstName = txtInst.Text;
-				course.Inst.LastName = txtInstLast.Text;
-
-			}
 			try
 			{
+				if (course != null)
+				{
+					course.Id = Convert.ToInt32(txtId.Text);
+
+					course.Department = txtDep.Text;
+					course.CourseName = txtName.Text;
+					course.CourseNumber = Convert.ToInt32(txtNumber.Text);
+					course.Description = txtDesc.Text;
+					course.Prerequisite = txtPre.Text;
+					course.Status = txtStatus.Text;
+					course.ClassSize = Convert.ToInt32(txtSize.Text);
+					course.Enrolled = Convert.ToInt32(txtEnrolled.Text);
+					course.Semester = txtSem.Text;
+					course.Year = Convert.ToInt32(txtYear.Text);
+					course.Section = txtSection.Text;
+					course.Credit = Convert.ToInt32(txtCredit.Text);
+					course.Days = cBox.Text;
+					course.Time = txtTime.Text;
+					course.Location = txtLoacation.Text;
+					course.Inst.FirstName = txtInst.Text;
+					course.Inst.LastName = txtInstLast.Text;
+
+				}
+
+
 				ctx.SaveChanges();
 				MessageBox.Show("Data successdully updated ");
 				MainWindow m = new MainWindow();

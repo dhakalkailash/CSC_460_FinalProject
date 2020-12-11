@@ -286,8 +286,8 @@ namespace Project_Second
 					fc.txtNumber.Text = c2.CourseNumber.ToString();
 					fc.txtDesc.Text = c2.Description;
 					fc.txtPre.Text = c2.Prerequisite;
-
-					//fc.txtInst = c2.Instructor.FirstName;
+					fc.txtInst.Text = c2.Inst.FirstName;
+					fc.txtInstLast.Text = c2.Inst.LastName;
 
 					fc.txtStatus.Text = c2.Status.ToString();
 					fc.txtSize.Text = c2.ClassSize.ToString();
